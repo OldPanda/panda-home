@@ -1,6 +1,6 @@
 ---
 title: 关于
-pubDate: 2024-12-06
+pubDate: 2025-01-27 22:35:00 PST
 ---
 
-此主题系 Hexo 主题 <a href="https://github.com/sumimakito/hexo-theme-typography">活版印字</a> 在 Astro 平台上的移植版本
+某公司搬砖码工，目前居于旧金山湾区，喜欢 🐼 ，喜欢逛各种有 🐼 的动物园。
