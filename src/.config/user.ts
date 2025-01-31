@@ -72,4 +72,7 @@ export const userConfig: Partial<UserConfig> = {
   comment: {
     disqus: { shortname: "pandablog-1" },
   },
+  analytics: {
+    umamiAnalyticsId: 'edd3bbad-fc2f-4854-ae32-57d8635db5e1',
+  },
 }
