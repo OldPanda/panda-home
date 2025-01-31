@@ -50,7 +50,7 @@ The most similar command is
 
 于是，这个算法就有了形式化的定义。记字符串 a 与 b 的编辑距离为 \[katex display=true\]lev\_{a,b}(|a|, |b|)\[/katex\]其中 |a| 和 |b| 分别表示 a 与 b 的长度，可以得到推导公式
 
-```
+$$
 lev_{a,b}(i, j)=\begin{cases}
     \begin{array}{ll}
         max(i, j) & if min(i, j)=0, \\
@@ -64,7 +64,7 @@ lev_{a,b}(i, j)=\begin{cases}
         \end{cases} & otherwise.
     \end{array}
 \end{cases}
-```
+$$
 
 这个公式是用递归的形式定义的，但工程实现的时候我一般会倾向于避免这种方式，防止在输入过长的时候爆栈，这里可以用矩阵来存储 `lev(i,j)` 的值。以[维基百科](https://en.wikipedia.org/wiki/Levenshtein_distance)上的 `sitting` 和 `kitten` 的编辑距离为例，可以得到下面一个矩阵，右下角的 3 即为它们的编辑距离。
 
