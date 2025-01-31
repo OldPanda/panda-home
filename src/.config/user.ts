@@ -69,4 +69,7 @@ export const userConfig: Partial<UserConfig> = {
     ],
   },
   seo: { twitter: "@OldPanda" },
+  comment: {
+    disqus: { shortname: "pandablog-1" },
+  },
 }
