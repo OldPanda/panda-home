@@ -9,3 +9,4 @@ pubDate: 2025-01-11
 * [浮云的博客](https://last2win.com/)
 * [编码妙♂妙♂屋](https://www.skypyb.com/)
 * [V2方圆](https://www.v2fy.com/)
+* [博友圈](https://www.boyouquan.com/about)
