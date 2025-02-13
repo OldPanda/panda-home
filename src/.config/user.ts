@@ -68,6 +68,9 @@ export const userConfig: Partial<UserConfig> = {
       'Proudly published with <a target="_blank" href="https://astro.build/">Astro</a>',
     ],
   },
+  appearance: {
+    theme: "light",
+  },
   seo: { twitter: "@OldPanda" },
   comment: {
     disqus: { shortname: "pandablog-1" },
