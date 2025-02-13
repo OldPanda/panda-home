@@ -5,8 +5,6 @@ categories: ["随便聊聊"]
 tags: Astro, Blog, Cloudflare
 heroImage: /images/blog/a-dog-in-moving-box.jpg
 heroImageDescription: Photo by Erda Estremera on Unsplash
-
-draft: true
 ---
 
 大约在[七年前](https://old-panda.com/posts/hello-world)将博客转移到了 WordPress ，在这期间使用体验良好，也攒下了一堆文章，收获了各种 RSS 平台上的若干订阅。但随着近年家庭支出飙升，曾经眼中的一点小钱也变成了沉重的负担，看着一个月将近 20 块钱的服务器费用，不得不开始“降本增效”，所以今年年初花了将近一个月的工夫把博客迁移到了 Astro 。
