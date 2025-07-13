@@ -31,10 +31,6 @@ export const userConfig: Partial<UserConfig> = {
         href: 'https://weibo.com/u/1199303274',
       },
       {
-        name: 'xiaohongshu',
-        href: 'https://www.xiaohongshu.com/user/profile/61c8ec33000000001000be5c',
-      },
-      {
         name: 'bluesky',
         href: 'https://bsky.app/profile/oldpanda.bsky.social',
       }
