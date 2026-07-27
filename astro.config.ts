@@ -1,3 +1,4 @@
+import cloudflare from '@astrojs/cloudflare'
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import swup from '@swup/astro'
@@ -7,8 +8,6 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import UnoCSS from 'unocss/astro'
 import { themeConfig } from './src/.config'
-
-import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,5 +45,7 @@ export default defineConfig({
     }),
   ],
 
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    prerenderEnvironment: 'node',
+  }),
 })
