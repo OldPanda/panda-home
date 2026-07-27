@@ -38,6 +38,11 @@ const cssExtend = {
 }
 
 export default defineConfig({
+  content: {
+    filesystem: [
+      'src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}',
+    ],
+  },
   rules: [
     [
       /^row-(\d+)-(\d)$/,
@@ -63,7 +68,7 @@ export default defineConfig({
       collections: {
         simple: () => import('@iconify-json/simple-icons/icons.json').then(i => i.default),
         mdi: () => import('@iconify-json/mdi/icons.json').then(i => i.default),
-      }
+      },
     }),
     presetTheme ({
       theme: {
