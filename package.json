@@ -28,7 +28,7 @@
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "typescript": "~6.0.3",
-    "vite": "^8.1.5"
+    "vite": "^8.1.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.2.0",
